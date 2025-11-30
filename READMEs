@@ -1,0 +1,22 @@
+Problem Statement:
+ simple recommendation system that suggests items (e.g., movies, books, or products) to users based on their preferences. This script employs content-based filtering, where recommendations are filtered by attributes such as category, duration, price, and rating based on user input.
+
+Approach Taken:
+The system suggests courses based on user-specified attributes 
+Filters relevant items by matching user preferences to dataset attributes.
+Accepts user preferences 
+Validates inputs and handles errors gracefully.
+Dummy evaluation metrics (RMSE and MAE) provide an idea of prediction accuracy using sample ratings.
+
+Tools/Libraries Used:
+Pandas.
+NumPy
+scikit-learn
+
+How to Run the Code:
+ Python is installed.
+Install required libraries: pandas, numpy, scikit-learn 
+Place the CSV file in the specified directory.
+Run the script 
+Displays filtered recommendations based on the given preferences
+

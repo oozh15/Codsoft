@@ -1,17 +1,17 @@
-Chatbot that can answer common queries about a temple, such as timings, pooja schedules, and footwear storage.
+Problem Statement
+ Tic-Tac-Toe against a human player. The AI uses algorithms such as Minimax with or without Alpha-Beta Pruning to ensure it is unbeatable. 
 
-Approach:
- Rule-Based System where predefined rules match user queries to appropriate responses.
-User input is converted to lowercase and extra spaces are removed for efficient keyword matching.
-If the input contains keywords like "timing," "pooja," or "footwear," the bot provides specific responses.
-For unrecognized queries, a polite fallback response is triggered.
-A loop ensures multiple interactions, ending only when the user inputs "exit" or "quit."
+Approach Taken:
+The game board is a 3x3 grid implemented as a 2D list.Player ('X') and AI ('O') take alternate turns.
+The AI evaluates all possible moves to maximize its chance of winning and minimize the player's winning chances. The AI considers all future moves and ensures no winning opportunity is left for the player.
+The player enters a row and column in a single line, like 1 2 (row 1, column 2). Input is validated to avoid errors.
+The game ends when either player wins or the board is full draw
 
-Tools:
-Python Standard Library
-input() (for user input)
-String methods: lower(), strip()
+Tools/Libraries Used
+Python 3.x
+Math Library
 
-How to Use:
-bot will prompt you to ask a question,Type your query  "What time is the evening pooja?",The bot will respond based on the keywords or type "exit" to end the conversation.
-
+How to Run the Code
+Install Python 3.x 
+Copy the code into  tictactoe.py
+Run python tictactoe.py
